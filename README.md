@@ -9,3 +9,6 @@ npm install
 npm start
 ```
 Your app should be available under fallowing url: http://localhost:3000
+
+## Deploy
+App is deployed on heroku: https://chingu9.herokuapp.com
