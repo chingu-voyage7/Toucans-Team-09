@@ -1,4 +1,5 @@
 # Toucans-Team-09
+[![Waffle.io - Issues in progress](https://badge.waffle.io/chingu-voyage7/Toucans-Team-09.png)](http://waffle.io/chingu-voyage7/Toucans-Team-09)
 
 ## Start
 1. Install node.js https://nodejs.org
@@ -8,4 +9,6 @@ npm install
 npm start
 ```
 Your app should be available under fallowing url: http://localhost:3000
+
 ## Deploy
+App is deployed on heroku: https://chingu9.herokuapp.com
