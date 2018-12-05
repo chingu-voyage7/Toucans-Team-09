@@ -17,27 +17,53 @@
   <script src="javascripts/main.js"></script>
 </head>
 
+
 <body>
   <!-- Create name/logo (left) and menu (right) -->
-  <nav></nav>
+  <header>
+    <div id="brand">
+      Toucans-9 Company
+    </div>
+    <nav>
+      <ul class="list-unstyled list-inline">
+        <li class="list-inline-item">
+          <a href="index.html">HOME</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="about.html">ABOUT</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="services.html">SERVICES</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
   <main>
     <!-- Section: Jumbotron/hero (background image + short description) -->
-    <section></section>
+    <section id="description"></section>
     <!-- Section: HTML / CSS / JS images + description -->
-    <section></section>
+    <section id="services"></section>
     <!-- Section: Sign-up newsletter form -->
     <section id="newsletter">
-      <div>
-        <h1 id="newsletter-header">Subscribe to my newsletter</h1>
-        <form id="newsletter-inputform">
-          <input id="newsletter-in-mail" placeholder="Enter e-mail...">
-          <button id="newsletter-in-button" type="submit">Register</button>
-        </form>
-      </div>
+      <form class="form-inline">
+        <div class="input-group mb-2 mr-sm-2">
+          <label for="newsletter-in-mail">Subscribe to my newsletter</label>
+        </div>
+        <div class="input-group mb-2 mr-sm-2">
+          <input type="email" class="form-control" id="newsletter-in-mail" placeholder="Enter email" required>
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+        </div>
+      </form>
     </section>
   </main>
   <!-- Footer  & copyright -->
-  <footer></footer>
+  <footer>
+    <div>Toucans-9 Company, Copyright © 2018</div>
+  </footer>
 
   <!-- Bootstrap JS, Popper.js, and jQuery -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

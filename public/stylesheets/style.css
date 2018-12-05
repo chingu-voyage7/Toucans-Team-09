@@ -1,8 +1,43 @@
-body {
+/* body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+} */
+
+header {
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #5ebd5e;
+}
+
+#description {
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  background-color: aliceblue;
+}
+
+#services {
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  background-color: aliceblue;
+}
+
+#newsletter {
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #333;
 }
