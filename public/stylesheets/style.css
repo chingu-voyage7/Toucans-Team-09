@@ -1,26 +1,8 @@
-/* body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00B7FF;
-} */
-
-header {
-  /* text-align: center; */
-  padding: 20px;
-  color: #ffffff;
-  background-color: #333;
-}
-
 footer {
-  text-align: center;
   padding: 20px;
-  color: #ffffff;
-  background-color: #5ebd5e;
 }
 
+/* delete/fix after implementation */
 #description {
   text-align: center;
   padding: 20px;
@@ -28,6 +10,7 @@ footer {
   background-color: aliceblue;
 }
 
+/* delete/fix after implementation */
 #services {
   text-align: center;
   padding: 20px;
@@ -36,8 +19,11 @@ footer {
 }
 
 #newsletter {
-  text-align: center;
   padding: 20px;
-  color: #ffffff;
-  background-color: #333;
+}
+
+@media(max-width: 575px) {
+  button.full-width {
+      width: 100%;  
+  }
 }

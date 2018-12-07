@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-  <title>Toucans9</title>
+  <title>Toucans-9 Company</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -21,31 +21,29 @@
 <body>
   <!-- Create name/logo (left) and menu (right) -->
   <header>
-    <div class="container">
-      <div class="row">
-        <div id="brand" class="col-sm-8">
-          Toucans-9 Company
-        </div>
-        <div id="nav">
-          <nav>
-            <ul class="nav nav-pills">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="services.html">SERVICES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">CONTACT</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <a class="navbar-brand text-success" id="navbar-brand" href="#">Toucans-9 Company</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
   </header>
   <main>
     <!-- Section: Jumbotron/hero (background image + short description) -->
@@ -53,22 +51,25 @@
     <!-- Section: HTML / CSS / JS images + description -->
     <section id="services"></section>
     <!-- Section: Sign-up newsletter form -->
-    <section id="newsletter">
-      <form class="form-inline">
-        <div class="input-group mb-2 mr-sm-2">
-          <label for="newsletter-in-mail">Subscribe to my newsletter</label>
-        </div>
-        <div class="input-group mb-2 mr-sm-2">
-          <input type="email" class="form-control" id="newsletter-in-mail" placeholder="Enter email" required>
-        </div>
-        <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
-        </div>
-      </form>
+    <section id="newsletter" class="bg-dark text-light">
+      <div class="container">
+        <form class="form-inline">
+          <div class="input-group mr-sm-2">
+            <label for="newsletter-in-mail">Subscribe to my newsletter</label>
+          </div>
+          <div class="input-group mr-sm-2 my-1">
+            <input type="email" class="form-control" id="newsletter-in-mail" placeholder="Enter email" required>
+          </div>
+          <button type="submit" class="btn btn-primary btn-outline-success my-1 full-width">Subscribe</button>
+        </form>
+      </div>
     </section>
   </main>
   <!-- Footer  & copyright -->
-  <footer>
-    <div>Toucans-9 Company, Copyright © 2018</div>
+  <footer class="footer bg-success">
+    <div class="container text-center">
+      <span class="text-light">Toucans-9 Company, Copyright © 2018</span>
+    </div>
   </footer>
 
   <!-- Bootstrap JS, Popper.js, and jQuery -->
