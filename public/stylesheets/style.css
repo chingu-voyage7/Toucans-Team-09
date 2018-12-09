@@ -1,17 +1,12 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 footer {
   padding: 20px;
 }
 
-/* delete/fix after implementation */
 #description {
-  text-align: center;
-  padding: 20px;
-  color: #ffffff;
-  background-color: aliceblue;
-}
-
-/* delete/fix after implementation */
-#services {
   text-align: center;
   padding: 20px;
   color: #ffffff;
@@ -26,4 +21,12 @@ footer {
   button.full-width {
       width: 100%;  
   }
+}
+
+/* Section: Services */
+.services {
+  height: 400px !important;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #D7D7D7; 
 }
