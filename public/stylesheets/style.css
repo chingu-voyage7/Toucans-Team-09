@@ -7,6 +7,10 @@ a {
   color: #00B7FF;
 } */
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 header {
   /* text-align: center; */
   padding: 20px;
@@ -28,7 +32,7 @@ footer {
   background-color: aliceblue;
 }
 
-#services {
+#section {
   text-align: center;
   padding: 20px;
   color: #ffffff;
@@ -40,4 +44,15 @@ footer {
   padding: 20px;
   color: #ffffff;
   background-color: #333;
+}
+
+/* Section: Descritption */
+
+
+/* Section: Services */
+.services {
+  height: 400px !important;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #D7D7D7; 
 }
