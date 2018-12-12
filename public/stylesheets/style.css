@@ -46,13 +46,8 @@ footer {
   background-color: #333;
 }
 
-/* Section: Descritption */
-
 /* Section: Services */
 .services {
-  height: 400px !important;
-  align-items: center;
-  justify-content: center;
   border-top: 1px solid #d7d7d7;
   background-color: #f3f5fd;
 }
