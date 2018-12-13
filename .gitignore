@@ -114,4 +114,4 @@ node_modules
 # others
 *.log
 *.bck
-
+.DS_Store
