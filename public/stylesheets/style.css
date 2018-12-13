@@ -1,28 +1,9 @@
-/* body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00B7FF;
-} */
-
 body {
   font-family: 'Montserrat', sans-serif;
 }
 
-header {
-  /* text-align: center; */
-  padding: 20px;
-  color: #ffffff;
-  background-color: #333;
-}
-
 footer {
-  text-align: center;
   padding: 20px;
-  color: #ffffff;
-  background-color: #5ebd5e;
 }
 
 #description {
@@ -32,18 +13,14 @@ footer {
   background-color: aliceblue;
 }
 
-#section {
-  text-align: center;
+#newsletter {
   padding: 20px;
-  color: #ffffff;
-  background-color: aliceblue;
 }
 
-#newsletter {
-  text-align: center;
-  padding: 20px;
-  color: #ffffff;
-  background-color: #333;
+@media(max-width: 575px) {
+  button.full-width {
+      width: 100%;  
+  }
 }
 
 /* Section: Services */
