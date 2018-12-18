@@ -46,8 +46,71 @@ footer {
   background-color: #333;
 }
 
+.green {
+  color: #28a745;
+}
+
 /* Section: Services */
 .services {
   border-top: 1px solid #d7d7d7;
-  background-color: #f3f5fd;
+  background-color: #fdfdfd;
+}
+
+/* About.html / Section: About */
+
+.shortinfo {
+  width: 70%;
+}
+
+.office {
+  background-color: white;
+  width: 100%;
+  height: 150px;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.office .paragraph-block {
+  width: 100%;
+  max-width: 50rem;
+  background-color: white;
+  -webkit-transform: translateY(-10rem);
+  transform: translateY(-10rem);
+  margin-bottom: -3rem;
+  padding: 3rem;
+}
+
+.team {
+  background-color: white;
+}
+
+.svg-inline--fa.fa-w-16 {
+  margin-right: 5px;
+}
+
+.svg-inline--fa {
+  font-size: 30px;
+  color: #28a745;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.4rem !important;
+  }
+  .jointeam {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .office .paragraph-block {
+    width: auto;
+    max-width: 30rem;
+    transform: translateY(-5rem);
+    padding: 1.2rem;
+  }
+  .office {
+    height: auto;
+  }
+  .team {
+    padding-top: 1rem;
+  }
 }
