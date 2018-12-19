@@ -1,69 +1,169 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <title>Toucans9 about</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script>
+    <!-- Bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- Google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="stylesheets/style.css"
+    />
+    <!-- Custom JS -->
+    <script src="javascripts/main.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-  <title>Toucans9 about</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <!-- Bootstrap link -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous" />
-  <!-- Custom CSS -->
-  <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/style.css" />
-  <!-- Custom JS -->
-  <script src="javascripts/main.js"></script>
-</head>
+  <body>
+    <!-- Create name/logo (left) and menu (right) -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <a class="navbar-brand text-success" id="navbar-brand" href="index.html">Toucans-9 Company</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    <main>
+        <!-- Section: Short info About us -->
+        <div class="container-fluid shortinfo mt-4 pt-4 boo p-3">
+            <div class="col-sm">
+              <h1 class="text-center display-5">
+                About <span class="green"> Toucans-9 Company</span>
+              </h1>
+              <p class="text-center display pb-3 pt-3">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur,
+                ab. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta,
+                animi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto, fugiat? Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Eaque laudantium magni illum velit itaque
+                obcaecati ratione ad rerum alias aliquam?
+              </p>
+              <p class="text-center">
+                <i class="fas fa-code"></i> Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Pariatur, culpa?
+              </p>
+              <p class="text-center">
+                <i class="fas fa-code-branch"></i> Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Pariatur, culpa?
+              </p>
+              <p class="text-center">
+                <i class="fab fa-codepen"></i> Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Pariatur, culpa?
+              </p>
+            </div>
+          </div>
+          <hr />
+    
+          <!-- Section: Office image -->
+          <div class="container-fluid shortinfo pt-3 px-3 d-none d-sm-block">
+              <img
+                class="img-fluid"
+                src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="office image"
+              />
+            </div>
+            <img
+              class="img-fluid d-block d-sm-none pt-3"
+              src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="office image"
+            />
+          </div>
+          <div class="container office">
+            <div class="paragraph-block">
+              <h2>How we <span class="green">work</span></h2>
+              <p class="text-center pr-2 pl-2">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
+                odio ipsam tempore in quas labore facere provident, sit voluptate,
+                ducimus nemo quia sequi quibusdam esse cupiditate ipsum harum
+                temporibus, obcaecati amet omnis nesciunt! Eaque id mollitia
+                delectus magnam, qui optio!
+              </p>
+            </div>
+          </div>
+          <hr />
 
+          <!-- Section: Join Team -->
+          <section class="jointeam">
+            <div class="container team mb-5 mt-4 pt-4">
+              <div class="row text-center align-items-center">
+                <div class="col-sm-6 order-2 order-md-1">
+                  <img
+                    class="img-fluid"
+                    src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="team image"
+                  />
+                </div>
+                <div class="col-sm-6 jointeam order-1 order-md-2">
+                  <h1>Join our<span class="green"> Team!</span></h1>
+                  <p class="display">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
+                    fuga blanditiis quod a error corporis voluptatem ab est quis
+                    deserunt?
+                  </p>
+                  <p><i class="fas fa-phone"></i> Phone: 03836278932</p>
+                  <p><i class="fas fa-at"></i>Email: toucans@hotmail.com</p>
+                </div>
+              </div>
+            </div>
+          </section>
+    </main>
 
-<body>
-  <!-- Create name/logo (left) and menu (right) -->
-  <header>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-      <a class="navbar-brand text-success" id="navbar-brand" href="index.html">Toucans-9 Company</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">HOME</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="about.html">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">SERVICES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">CONTACT</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <!-- Section: about -->
-    <section id="about">
-    </section>
-  </main>
-  <!-- Footer  & copyright -->
+      <!-- Footer  & copyright -->
   <footer class="footer bg-success">
-    <div class="container text-center">
-      <span class="text-light">Toucans-9 Company, Copyright © 2018</span>
-    </div>
-  </footer>
+      <div class="container text-center">
+        <span class="text-light">Toucans-9 Company, Copyright © 2018</span>
+      </div>
+    </footer>
 
-  <!-- Bootstrap JS, Popper.js, and jQuery -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-</body>
-
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
