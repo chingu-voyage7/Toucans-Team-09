@@ -47,7 +47,36 @@
   </header>
   <main>
     <!-- Section: contact -->
-    <section id="contact">
+    <section id="contact" class="bg-light">
+      <div class="container">
+        <div class="text-center py-2">
+          <h5>Send us your message</h5>
+          <hr>
+        </div>
+        <form>
+          <div class="row justify-content-center">
+            <div class="col col-sm-7">
+              <label for="Name">Name *</label>
+              <input type="text" id="name" class="form-control" required>
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" class="form-control">
+              <label for="e-mail">E-mail *</label>
+              <input type="email" id="e-mail" class="form-control" required>
+              <label for="message">Message *</label>
+              <textarea id="message" class="form-control" rows="6" required></textarea>
+            </div>
+            <!-- <div class="col">
+            </div> -->
+          </div>
+          <div class="row py-3 justify-content-center">
+            <!-- <hr> -->
+            <!-- <div class="text-center"> -->
+            <button class="btn btn-primary btn-success" type="submit">Send</button>
+            <!-- </div> -->
+          </div>
+          <!-- <hr> -->
+        </form>
+      </div>
     </section>
   </main>
   <!-- Footer  & copyright -->
